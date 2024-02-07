@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a8d8e8; /* Sky Blue */
+    color: #333;
+}
+
+header {
+    background-color: #4d90fe; /* Dodger Blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #64b5f6; /* Steel Blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #4d90fe; /* Dodger Blue */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Additional Styles for Destinations Section */
+#destinations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+.destination {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.destination img {
+    width: 100%;
+    height: 100px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images maintain their aspect ratio */
+    border-radius: 5px;
+}
+
+.destination p {
+    margin: 5px 0;
+}
